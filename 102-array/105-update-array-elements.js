@@ -1,5 +1,5 @@
 
-//--------- Initiate a 10 value array object and fill it with false
+//Initiate a 10 value array object and fill it with false
 let data = new Array(10)
 //console.log(data)
 
@@ -8,13 +8,22 @@ for (let i = 0; i < data.length; i++){
 }
 
 console.log(data);
+/*
+output: 
+    [
+        false, false, false,
+        false, false, false,
+        false, false, false,
+        false
+    ]
+*/
 
-//--------- with fill method we can do it easily
+//with fill method we can do it easily
 let data2 = Array(10)
 data2.fill(100);
 console.log(data2)
 
-//--------- Fill the specific element if we want 
+//Fill the specific element if we want 
 let response = Array(20)
 response.fill(false)
 

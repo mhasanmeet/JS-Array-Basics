@@ -8,10 +8,8 @@ let personName = [
 ]
 
 /*
-
     Give Id: 4
     update Name: Momotaj Begum
-
 */
 
 let givenID = 4
